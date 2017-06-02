@@ -3,6 +3,10 @@ import numpy as np
 import os
 from scipy.misc import imread
 
+"""
+DISCLAIMER: This code was not written by me, it was taken from a CS course
+"""
+
 def load_CIFAR_batch(filename):
   """ load single batch of cifar """
   with open(filename, 'rb') as f:
